@@ -1,0 +1,19 @@
+{
+    "name": "srp/extends-import",
+    "description": "Extends the Product Import Functionality",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Shailesh Parsana",
+            "email": "shaileshparsana@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Srp\\ExtendsImport\\": ""
+        }
+    }
+}
